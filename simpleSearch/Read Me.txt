@@ -1,0 +1,13 @@
+simpleSearch folder consists of cucumber test that search a cause in easy fundraising website.
+
+Pre requisite to run the test:
+1. Java should be installed on your machine
+2. Node should be installed on your machine
+3. Javascript editor (e.g. visual studio code) should be installed on your machine
+4. webdriverIO should be installed
+5. Cucumber, page objects, babel compiler,chromedriver needs to be selected while configuring webdriverIO
+6. Update the wdio.conf.js file according to the wdio file in the simpleSearch folder
+
+Execution step:
+Type the below command in the terminal:
+npx wdio wdio.conf.js
